@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+
+/* CSS VARIABLES */
+
+:root {
+  --primary-color: #fde68a;
+  --secondary-color: #6b7280;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0px;
+  background-color: var(--primary-color);
+}
+
+textarea {
+  font-family: "Roboto Mono", monospace;
+}
+
+#nav-bar {
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+#heading-main {
+  text-align: center;
+}
+
+#input-txt {
+  width: 60%;
+  margin: auto;
+  display: block;
+  min-height: 20vh;
+  font-size: large;
+}
+
+#btn-primary {
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+}
+
+.link-primary {
+  text-decoration: none;
+  color: black;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 0px;
+}
+
+#link-container {
+  margin-top: 1rem;
+}
+
+#indicator {
+  margin-top: 1.5rem;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#output {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: 60%;
+  min-height: 10vh;
+  max-height: 15vh;
+  overflow: scroll;
+  font-size: large;
+  background-color: white;
+}
+
+#footer {
+  margin-top: 5rem;
+  margin-bottom: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
