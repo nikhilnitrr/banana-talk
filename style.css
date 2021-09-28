@@ -83,3 +83,10 @@ textarea {
   width: 100%;
   text-align: center;
 }
+
+#about {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
